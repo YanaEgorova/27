@@ -1,0 +1,22 @@
+.about__wrapper {
+    background-color: var(--first-brand-color);
+}
+.about {
+    text-align: center;
+}
+.about__img {
+    width: 100%;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.about .info__text {
+    margin-bottom: 4rem;
+}
+@media screen and (min-width: 1024px)  {
+    .about .info__text {
+        font-weight: 300;
+        text-transform: none;
+    }
+}

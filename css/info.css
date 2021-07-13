@@ -1,0 +1,99 @@
+.info {
+    text-align: center;
+}
+.info__title {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-family: var(--title-font);
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info__text {
+    font-size: 1.4rem;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+.info__img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+    .info__text {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .info__block {
+        display: grid;
+        grid-template-columns: 40rem 40rem 40rem;
+        grid-template-rows: 40rem 40rem 40rem;
+    }
+    .info__block--top {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .info__block--left, .info__block--top, .info__box--top, .info__box--bottom {
+        position: relative;
+    }
+    .info__text-box {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(106, 219, 163, .7);
+        left: 0;
+        bottom: 0;
+        padding: 2rem;
+    }
+    .info__block--left {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .info__img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    .info__block--bottom {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        display: grid;
+        grid-template-columns: 40rem 40rem;
+        grid-template-rows: 40rem 40rem;
+    }
+    .info__box--top {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .info__box--bottom {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .info__text {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+
+
+

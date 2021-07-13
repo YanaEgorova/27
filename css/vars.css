@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color: #fff;
+    --sub-bg-color: #000;
+    --main-text-color: #000;
+    --sub-text-color: #fff;
+    --accent-color: #e62b26;
+    --first-brand-color: #fc531c;
+    --second-brand-color: #6adba3;
+    --main-font: 'Roboto';
+    --title-font: 'Objectivity';
+    
+    font-size: 62.5%;
+}
